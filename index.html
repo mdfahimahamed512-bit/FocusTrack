@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FocusTrack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>FocusTrack</h1>
+    <p>Track your study focus time and breaks</p>
+
+    <div class="timer" id="timer">00:00:00</div>
+
+    <div class="buttons">
+      <button onclick="start()">Start</button>
+      <button onclick="pause()">Pause</button>
+      <button onclick="reset()">Reset</button>
+    </div>
+
+    <div class="stats">
+      <p>Total Focus Time: <span id="focusTime">0</span> minutes</p>
+      <p>Total Breaks: <span id="breaks">0</span></p>
+    </div>
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  background: #020617;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #0f172a;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  width: 350px;
+}
+
+.timer {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.stats {
+  margin-top: 20px;
+  font-size: 14px;
+}
